@@ -36,5 +36,5 @@ class ScrapeGagSpider(scrapy.Spider):
 				next_url = url.get_attribute('href')
 			#next url = http://9gag.com/?id=aZpWnV9%2CavnZPdd%2CaQxpV77&c=10 
 			#For pagination, to be used later
-		item['image_urls'] = ["https://s-media-cache-ak0.pinimg.com/564x/3a/a8/bd/3aa8bd1b9a1befe4fc77c1556e16a5f8.jpg"]	
+		item['image_urls'] = my_urls
 		return item
