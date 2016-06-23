@@ -30,7 +30,7 @@ class ScrapeGagSpider(scrapy.Spider):
 			for link in links:
 				my_urls.append(link.get_attribute('src'))
 		#my_urls = [u'http://img-9gag-fun.9cache.com/photo/aAPVwAo_460s.jpg', u'http://img-9gag-fun.9cache.com/photo/a7dKdyr_460s_v1.jpg' ...]
-		if ...] driver.find_elements_by_xpath('//div[@class="loading"]/a'):
+		if  driver.find_elements_by_xpath('//div[@class="loading"]/a'):
 			pointer = driver.find_elements_by_xpath('//div[@class="loading"]/a')
 			for url in pointer:
 				next_url = url.get_attribute('href')
